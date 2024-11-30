@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4eefc; /* Color lila claro */
+    color: #4a154b; /* Color lila oscuro */
+    font-size: 18px; /* Tamaño base más legible */
+    line-height: 1.6; /* Mejor separación entre líneas */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d4a6df; /* Color lila oscuro */
+    padding: 20px; /* Espaciado más amplio */
+    color: white;
+    font-size: 20px; /* Aumentamos el texto de la barra */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px; /* Aumentamos el tamaño de los enlaces */
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px; /* Más espacio entre secciones */
+    background: #e3c5eb; /* Color lila intermedio */
+    text-align: center;
+}
+
+.step {
+    max-width: 300px; /* Permitir un poco más de espacio */
+}
+
+.step .icon {
+    font-size: 50px; /* Íconos más grandes */
+    margin-bottom: 20px;
+}
+
+.step h2 {
+    font-size: 24px; /* Encabezados más grandes */
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 18px; /* Párrafos más grandes */
+}
+
+.cta {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px; /* Texto principal más visible */
+}
+
+.cta a {
+    text-decoration: none;
+    color: #4a154b;
+    font-weight: bold;
+    font-size: 20px; /* Enlaces más destacados */
+}
+
+/* Estilo para el contenedor Hero */
+.hero-content {
+    display: flex;
+    flex-wrap: wrap; /* Para adaptarse en pantallas pequeñas */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Estilo del texto Hero */
+.hero-text {
+    flex: 1; /* Ocupa todo el espacio disponible en pantallas pequeñas */
+    max-width: 600px; /* Ancho máximo para el texto */
+    margin-right: 20px;
+}
+
+.hero-text h1 {
+    font-size: 24px; /* Tamaño más compacto */
+    margin-bottom: 15px;
+    color: #4a154b;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a154b;
+}
+
+/* Estilo de la imagen Hero */
+.hero-image {
+    flex: 1; /* Ocupa todo el espacio disponible en pantallas pequeñas */
+    max-width: 300px; /* Limitar el tamaño de la imagen */
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%; /* Escala proporcionalmente dentro de su contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Esquinas redondeadas (opcional) */
+}
